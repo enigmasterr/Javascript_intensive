@@ -25,12 +25,8 @@ function myFirstApp(name, age) {
 	
 	checkAge();
 
-	function calcPow(num) {
-		let p = 1;
-		for (let i = 1; i <= num; i++) {
-			p = p * num;
-		}
-		document.write(" Answer " + num + "^2 = " + p + "<br>");
+	function calcPow(num) {		
+		document.write(" Answer " + num + "^2 = " + num * num + "<br>");
 	}
 
 	calcPow(4);
